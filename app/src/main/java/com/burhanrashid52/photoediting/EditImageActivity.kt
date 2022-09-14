@@ -132,7 +132,7 @@ class EditImageActivity : BaseActivity(), OnPhotoEditorListener, View.OnClickLis
                     val bitmap: Bitmap?
                     val contentResolver = contentResolver
                     try {
-                        bitmap = if (Build.VERSION.SDK_INT < 28) {
+                        bitmap = if (Build.VERSION.SDK_INT < 30) {
                             MediaStore.Images.Media.getBitmap(contentResolver, uri!!)
                         } else {
                             decodeBitmap(ImageDecoder.createSource(contentResolver, uri!!))
@@ -370,7 +370,7 @@ class EditImageActivity : BaseActivity(), OnPhotoEditorListener, View.OnClickLis
                 val bitmap: Bitmap?
                 val contentResolver = contentResolver
                 try {
-                    bitmap = if (Build.VERSION.SDK_INT < 28) {
+                    bitmap = if (Build.VERSION.SDK_INT < 30) {
                         MediaStore.Images.Media.getBitmap(contentResolver, uri!!)
                     } else {
                         decodeBitmap(ImageDecoder.createSource(contentResolver, uri!!))
