@@ -41,6 +41,7 @@ dependencies {
     //                     to work on locally modified code.
     //implementation 'com.burhanrashid52:photoeditor:2.0.0'
     implementation project(':photoeditor')
+    implementation project(':permission')
     implementation 'androidx.cardview:cardview:1.0.0'
 
     testImplementation 'junit:junit:4.13.2'

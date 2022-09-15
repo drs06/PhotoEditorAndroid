@@ -1,2 +1,2 @@
-include ':app', ':photoeditor'
+include ':app', ':photoeditor', ':permission'
 //Linese
