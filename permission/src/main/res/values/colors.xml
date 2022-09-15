@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="permission_white">#FFFFFF</color>
+    <color name="permission_black">#333333</color>
+    <color name="permission_orange_500">#FF9500</color> <!--color code #FF9800-->
+    <color name="permission_orange_700">#F57C00</color> <!--color code #F57C00-->
+</resources>

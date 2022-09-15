@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_apv_simple_media_title">Allow access to your %1$s</string>
+    <string name="permission_apv_simple_media_description">To begin editing you have to allow access to all of your %1$s.
+        You can always change this in your device settings.</string>
+    <string name="permission_apv_simple_action_btn_text">Allow Access</string>
+</resources>

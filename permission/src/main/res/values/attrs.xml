@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AllowPermissionView">
+        <attr name="apv_icon" format="reference" />
+        <attr name="apv_title" format="string|reference" />
+        <attr name="apv_title_color" format="color|reference" />
+        <attr name="apv_description" format="string|reference" />
+        <attr name="apv_description_color" format="color|reference" />
+        <attr name="apv_actionText" format="string|reference" />
+        <attr name="apv_actionText_color" format="color|reference" />
+        <attr name="apv_actionText_bg_color" format="color|reference" />
+    </declare-styleable>
+</resources>

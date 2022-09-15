@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PermissionDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/permission_white</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/PermissionDialog.TitleStyle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/PermissionDialog.BodyStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PermissionDialog.PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/PermissionDialog.NegativeButtonStyle</item>
+    </style>
+
+    <style name="PermissionDialog.TitleStyle" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:maxLines">50</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textColor">@color/permission_orange_700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="PermissionDialog.BodyStyle" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:maxLines">5000</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textColor">@color/permission_black</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="PermissionDialog.PositiveButtonStyle" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/permission_orange_700</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="PermissionDialog.NegativeButtonStyle" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/permission_black</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>
